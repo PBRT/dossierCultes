@@ -1,0 +1,127 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=4640, tid=4180
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_21-b11
+# Java VM: Java HotSpot(TM) Client VM (23.21-b01 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0104a800):  JavaThread "Unknown thread" [_thread_in_vm, id=4180, stack(0x00de0000,0x00e30000)]
+
+Stack: [0x00de0000,0x00e30000],  sp=0x00e2f8c0,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x170511]
+V  [jvm.dll+0x16a6b6]
+V  [jvm.dll+0x2082f]
+V  [jvm.dll+0x208b6]
+V  [jvm.dll+0x2e5dd]
+V  [jvm.dll+0x2e889]
+V  [jvm.dll+0x77bd1]
+V  [jvm.dll+0x77f8b]
+V  [jvm.dll+0x12a1b1]
+V  [jvm.dll+0x14ac6a]
+V  [jvm.dll+0xa9eef]
+C  [javaw.exe+0x13ca]
+C  [javaw.exe+0x1e3c]
+C  [javaw.exe+0xa5b1]
+C  [javaw.exe+0xa63b]
+C  [KERNEL32.DLL+0x1866]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x56911]  LdrInitializeThunk+0x1f0
+C  [ntdll.dll+0x568bd]  LdrInitializeThunk+0x19c
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0104a800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4180, stack(0x00de0000,0x00e30000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.011 loading class 0x01103a98 done
+Event: 0.011 loading class 0x010e4d20 done
+Event: 0.011 loading class 0x010e4d48
+Event: 0.011 loading class 0x0110be18
+Event: 0.011 loading class 0x0110be18 done
+Event: 0.011 loading class 0x0110b948
+Event: 0.011 loading class 0x0110b948 done
+Event: 0.011 loading class 0x011508d0
+Event: 0.011 loading class 0x011508d0 done
+Event: 0.011 loading class 0x010e4d48 done
+
+
+Dynamic libraries:
+0x01250000 - 0x0127f000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x77c90000 - 0x77df8000 	C:\Windows\SYSTEM32\ntdll.dll
+0x767e0000 - 0x768d8000 	C:\Windows\system32\KERNEL32.DLL
+0x75420000 - 0x754dd000 	C:\Windows\system32\KERNELBASE.dll
+0x760a0000 - 0x7614e000 	C:\Windows\system32\ADVAPI32.dll
+0x75a80000 - 0x75ba1000 	C:\Windows\system32\USER32.dll
+0x73b40000 - 0x73d38000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.16579_none_8937eec6860750f5\COMCTL32.dll
+0x76350000 - 0x76401000 	C:\Windows\system32\msvcrt.dll
+0x75e70000 - 0x75ea4000 	C:\Windows\SYSTEM32\sechost.dll
+0x768e0000 - 0x769b2000 	C:\Windows\system32\RPCRT4.dll
+0x757b0000 - 0x758ba000 	C:\Windows\system32\GDI32.dll
+0x76070000 - 0x7609b000 	C:\Windows\system32\IMM32.DLL
+0x77bb0000 - 0x77c8d000 	C:\Windows\system32\MSCTF.dll
+0x64ad0000 - 0x64b8e000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x63040000 - 0x6338f000 	C:\Program Files\Java\jre7\bin\client\jvm.dll
+0x6cd20000 - 0x6cd28000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x71fd0000 - 0x71ff1000 	C:\Windows\SYSTEM32\WINMM.dll
+0x76150000 - 0x76156000 	C:\Windows\system32\PSAPI.DLL
+0x76790000 - 0x767e0000 	C:\Windows\system32\WS2_32.dll
+0x71fa0000 - 0x71fca000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x76060000 - 0x76068000 	C:\Windows\system32\NSI.dll
+0x73930000 - 0x7393c000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x738f0000 - 0x73910000 	C:\Program Files\Java\jre7\bin\java.dll
+0x738d0000 - 0x738e3000 	C:\Program Files\Java\jre7\bin\zip.dll
+0x70430000 - 0x70559000 	C:\Windows\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Program Files\android\platforms\android-17\android.jar 
+java_command: com.example.model.Modele
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2011b\runtime\win32;C:\Program Files\MATLAB\R2011b\bin; C:\Sun\SDK\jdk\bin;C:\Users\Pierre\Documents\Logiciels\eclipse;
+USERNAME=Pierre
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 Build 9200 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, tsc
+
+Memory: 4k page, physical 3110128k(1141000k free), swap 3634416k(1127592k free)
+
+vm_info: Java HotSpot(TM) Client VM (23.21-b01) for windows-x86 JRE (1.7.0_21-b11), built on Apr  4 2013 04:43:10 by "java_re" with unknown MS VC++:1600
+
+time: Sun May 26 20:54:09 2013
+elapsed time: 0 seconds
+

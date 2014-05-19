@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DossierCultes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Pres">Bienvenue dans la cave aux expressions</string>
+    <string name="goodies">Goodies</string>
+    <string name="Click">Cliquez sur XXX pour voir les dossier recensés</string>
+    <string name="XXX">XXX</string>
+    <string name="WW">X X X</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="loo">Choisir l\'artiste</string>
+    <string name="title_activity_perso">PersoActivity</string>
+    <string name="artista">"Page de "</string>
+    <string name="doss">"Dossier de "</string>
+    <string name="Prec">Revenir aux artistes</string>
+    <string name="title_activity_dossier">DossierActivity</string>
+    <string name="PunchLine">Punchline</string>
+    <string name="Pun">Punchline :</string>
+    <string name="Description">Description :</string>
+    <string name="Date">"Daté du : "</string>
+    <string name="Ret">Revenir aux autre dossiers</string>
+    <string name="Retour">Retour</string>
+    <string name="Ecrire">Ecrire un dossier</string>
+    <string name="title_activity_write">WriteActivity</string>
+    <string name="Nouv">&quot;Nouveau dossier sur &quot;</string>
+    <string name="Retou">Retour aux dossiers</string>
+    <string name="Enre">Enregistrer</string>
+    <string name="title_activity_date">DateActivity</string>
+    <string name="Change">Changer date</string>
+    <string name="Supress">Supprimer ce dossier</string>
+    <string name="title_activity_supress">SupressActivity</string>
+    <string name="Sp">Supression d\'un dossier</string>
+    <string name="tt">Etes-vous sur de vouloir supprimer ce dossier ?</string>
+    <string name="Supprimer">Supprimer</string>
+    <string name="Reto">Retour au dossier</string>
+    <string name="title_activity_suppr">SupprActivity</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="code">"Entrez le code pour supprimer ce dossier "</string>
+    <string name="title_activity_lourd">LourdActivity</string>
+    <string name="title_activity_suppression">SuppressionActivity</string>
+    <string name="Cav">Acceder à la cave</string>
+    <string name="title_activity_artiste">ArtisteActivity</string>
+    <string name="Ajout">Creer un auteur</string>
+    <string name="Nom">Nom :</string>
+    <string name="C">Creer un auteur</string>
+    <string name="Chemm">Chemin :</string>
+    <string name="Ann">Annuler</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="title_activity_formation_camera">FormationCameraActivity</string>
+    <string name="imm">Photo Profil :</string>
+    <string name="Immmaa">Image Actuelle</string>
+    <string name="mmmmm">Retour aux artistes</string>
+    <string name="Mrenn">Retour au menu</string>
+    <string name="title_activity_musix">MusixActivity</string>
+    <string name="title_activity_multi">MultiActivity</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dossiercultes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permision.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:name="com.example.dossiercultes.Modele"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dossiercultes.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.PersoActivity"
+            android:label="@string/title_activity_perso" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.DossierActivity"
+            android:label="@string/title_activity_dossier" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.WriteActivity"
+            android:label="@string/title_activity_write" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.DateActivity"
+            android:label="@string/title_activity_date" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.SupressActivity"
+            android:label="@string/title_activity_supress" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.SupprActivity"
+            android:label="@string/title_activity_suppr" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.FinalActivity"
+            android:label="@string/title_activity_final" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.LourdActivity"
+            android:label="@string/title_activity_lourd" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.SuppressionActivity"
+            android:label="@string/title_activity_suppression" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.ArtisteActivity"
+            android:label="@string/title_activity_artiste" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.PhotoActivity"
+            android:label="@string/title_activity_photo" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.FormationCameraActivity"
+            android:label="@string/title_activity_formation_camera" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.MusixActivity"
+            android:label="@string/title_activity_musix" >
+        </activity>
+        <activity
+            android:name="com.example.dossiercultes.MultiActivity"
+            android:label="@string/title_activity_multi" >
+        </activity>
+    </application>
+
+</manifest>
