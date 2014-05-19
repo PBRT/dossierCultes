@@ -1,21 +1,18 @@
-# DAILYFILES
+# DossierCULTES
 
-Simple app using sails.js, angular.js, jquerymobile, mongoDB and dangerous swiper www.idangero.us/sliders/swiper.
-With this one, you can upload images via a specific webpage, giving a date to them.
-By connecting to this app, you can see all images uploaded on the app, sort by chronological order, by swiping.
+The main goal of this app is to record all memorables sentences or face from your friends simply in your cellphone. 
+At the end, it will enable to share your records with your friends, to have good times...
 
-It's a new way to share interresting images with family or friends group. 
+From your cellphone, you create your friends profile, you add a picture and you can save all sentences / image of him, but only you can delete these.
 
-The final goal of this app is to receive one image by day, to be surprised. It's still in development.
-
+This is still in development.
 
 ## INSTALLATION
 
-Simply clone this project, run ```npm install``` and then run ```sails lift``` and check your localhost (port:3000)
-You can create new images by navigate to http://localhost:1337/createFile and check these to http://localhost:1337
+Simply clone this project and run it on eclipse.
 
-## DEMO
-You can find a live demonstration at http://dailyfiles.herokuapp.com
+##TECHNOLOGIE
 
-## TECHNOLOGIES
-This applications use Angular.js, Sails.js, Jquery mobile and mongoDB
+It's compatible with Android API 8 or greater.
+
+
